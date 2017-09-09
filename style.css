@@ -1,0 +1,170 @@
+body {
+  font-family: "Varela Round", sans-serif;
+  background-image: url("http://www.chicshelfpaper.com/images/P/9240.jpg");
+  /*font-size:16px;*/
+}
+h1, h2{
+  font-family: "Varela Round", sans-serif;
+  font-weight: bold;
+}
+/*.navbar-right { /*eliminates the -15 margin-right that is built into the class
+  margin-right: 0px;
+}*/
+
+/*.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}*/
+
+/*.form-group {
+  padding-left: 10px;
+}*/
+.form-horizontal .form-group {
+  margin-right: 0px;
+}
+
+h2 {
+  border-bottom: 2px solid rgba(83	, 182,	208, 0.75);
+}
+
+/* ---------- navbar stuff ----------- */
+#navbar {
+  z-index: 100;
+  /*background-color: rgb(217, 219, 241);*/
+  /*background-color: #fbfff1;*/
+  margin-bottom: 10px;
+  border-bottom: 5px solid rgb(83	, 182,	208);
+}
+#navbar-brand-div a {
+  /*color: #0b3948;*/
+  /*color: #214b58;*/
+  color: #2e4756;
+  font-family: "Varela Round", sans-serif;
+}
+#navbar-buttons-div button {
+  /*background-color: rgb(217, 219, 241);*/
+  /*background-color: #fbfff1;*/
+  /*color: #0b3948;*/
+  /*color: #2e4756;*/
+  border: none;
+  border-collapse: collapse;
+
+}
+
+
+/*--------header stuff -----*/
+#header {
+  background-color: white;
+  font-family: "Nixie One", cursive;
+  font-size: 100px;
+  text-align: center;
+  /*background-color:*/
+}
+
+#content {
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  padding-top: 20px;
+}
+#introduction {
+  padding: 10px;
+}
+
+#profile_photo {
+  height: 75%;
+  width: 75%;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+#intro-text {
+  /*background-color: white;
+  height: 100%;
+  padding-bottom: 10px;*/
+}
+#intro-text h2{
+  /*font-size: 25px;*/
+  margin-bottom: 2px;
+  border-bottom: 0px;
+}
+#intro-text h3{
+  margin-top: 5px;
+  /*text-transform: uppercase;*/
+}
+/*#call-to-action{
+  background-color: rgb(83	, 182,	208);
+}
+#call-to-action a{
+  color: white;
+}*/
+
+#call-to-action{
+  background-color: rgb(83	, 182,	208);
+  color: white;
+}
+
+/* ----- resume ------*/
+#resume-academics h3{
+  margin-top: 0px;
+}
+#resume-academics ul {
+  list-style-type:none;
+  /*font-size: 16px;*/
+}
+#resume-academics ul li {
+  /*list-style-type:none;*/
+  /*font-size: 16px;*/
+  font-weight: 600;
+}
+#resume-academics ul li ul li{
+  /*list-style-type:none;*/
+  /*font-size: 16px;*/
+  font-weight: 400;
+}
+#ia-ul {
+  position: relative;
+  left: -50px;
+}
+
+#resume-work ul {
+  list-style-type:none;
+  /*font-size: 16px;*/
+}
+#resume-work ul li {
+  /*list-style-type:none;*/
+  /*font-size: 16px;*/
+  font-weight: 600;
+}
+#resume-work ul li ul li{
+  /*list-style-type:none;*/
+  /*font-size: 16px;*/
+  font-weight: 400;
+}
+#chery-td {
+  position: relative;
+  left: -30px;
+}
+
+
+/*--- contact me ------*/
+#socials {
+  text-align: center;
+  width: 100%;
+}
+#social-list {
+  /*background-color: rgb(248,	248,	248);*/
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  /*margin: 0 auto;*/
+}
+#linkedin-img {
+  position: relative;
+  top: 5px;
+}
+
+#comments-section {
+  /*background-color: rgb(83	, 182,	208);*/
+  background-color: white;
+}
